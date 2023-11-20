@@ -129,7 +129,7 @@ public class Board {
         if(isMovesArr)
             return true;
         Piece cur = board[y][x];
-        List<int[]> l = cur.getMoves(y, x);
+        //List<int[]> l = cur.getMoves(y, x);
         List<List<int[]>> movesList = cur.getMovesList(y, x);
         boolean flag = false;
         for(List<int[]> i:movesList){
